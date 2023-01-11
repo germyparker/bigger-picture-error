@@ -12,3 +12,6 @@ client.js?t=1673409339167&v=0edd5263:207 Uncaught (in promise) Error: Attempted 
     at client.js?t=1673409339167&v=0edd5263:1145:5
 ```
 
+The fix has been added: data-sveltekit-preload-data="off" in the Bigger Picture wrapper solved it.
+
+I also added the masonry, because, well, it's nice.
