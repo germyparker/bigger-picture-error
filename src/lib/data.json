@@ -1,0 +1,45 @@
+[
+    {
+        "img": "aoihanapix/aoihana1.jpeg",
+        "thumb": "thumbs/aoihana1.jpeg",
+        "alt": "aoihana1",
+        "element": "aoihana1"
+    },
+    {
+        "img": "aoihanapix/aoihana2.jpeg",
+        "thumb": "thumbs/aoihana2.jpeg",
+        "alt": "aoihana2",
+        "element": "aoihana2"
+    },
+    {
+        "img": "aoihanapix/aoihana3.jpeg",
+        "thumb": "thumbs/aoihana3.jpeg",
+        "alt": "aoihana3",
+        "element": "aoihana3"
+    },
+    {
+        "img": "aoihanapix/aoihana3.png",
+        "thumb": "thumbs/aoihana3.png",
+        "alt": "aoihana3",
+        "element": "aoihana3"
+    },
+    {
+        "img": "aoihanapix/aoihana4.jpeg",
+        "thumb": "thumbs/aoihana4.jpeg",
+        "alt": "aoihana4",
+        "element": "aoihana4"
+    },
+    {
+        "img": "aoihanapix/aoihana5.jpeg",
+        "thumb": "thumbs/aoihana5.jpeg",
+        "alt": "aoihana5",
+        "element": "aoihana5"
+    },
+    {
+        "img": "aoihanapix/aoihana6.jpeg",
+        "thumb": "thumbs/aoihana6.jpeg",
+        "alt": "aoihana6",
+        "element": "aoihana6"
+    }
+]
+    
