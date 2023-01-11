@@ -2,19 +2,19 @@
     import BiggerPicture from 'bigger-picture/svelte'
 	import { onMount } from 'svelte';
   
-import items from '/src/lib/data.json'
-let bp
+    import items from '/src/lib/data.json'
+    let bp
 
-function openBiggerPicture(e) {
-    e.preventDefault();
-    bp.open({
-        items: this.parentElement.children,
-        el: this,
+    function openBiggerPicture(e) {
+        e.preventDefault();
+        bp.open({
+            items: this.parentElement.children,
+            el: this,
+        });
+    }
+    onMount(() => {
+        bp = BiggerPicture({ target: document.body });
     });
-}
-onMount(() => {
-    bp = BiggerPicture({ target: document.body });
-});
 </script>
 {#each items as item}
     <a
@@ -29,3 +29,4 @@ onMount(() => {
         <img src={item.thumb} alt={item.alt} />
     </a>
 {/each}
+
